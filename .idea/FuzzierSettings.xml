@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.mituuz.fuzzier.FuzzierSettings">
+    <option name="modules">
+      <map>
+        <entry key="taskManagerApp" value="$PROJECT_DIR$" />
+      </map>
+    </option>
+    <option name="recentFiles">
+      <list>
+        <FileAccessData>
+          <option name="accessCount" value="1" />
+          <option name="filePath" value="/pom.xml" />
+        </FileAccessData>
+      </list>
+    </option>
+    <option name="recentlySearchedFiles" value="rO0ABXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABc3IASGNvbS5taXR1dXouZnV6emllci5lbnRpdGllcy5GdXp6eU1hdGNoQ29udGFpbmVyJFNlcmlhbGl6ZWRNYXRjaENvbnRhaW5lctkvLD+bp8u+AgAETAAIZmlsZVBhdGh0ABJMamF2YS9sYW5nL1N0cmluZztMAAhmaWxlbmFtZXEAfgADTAAObW9kdWxlQmFzZVBhdGhxAH4AA0wABXNjb3JldAA8TGNvbS9taXR1dXovZnV6emllci9lbnRpdGllcy9GdXp6eU1hdGNoQ29udGFpbmVyJEZ1enp5U2NvcmU7eHB0AAgvcG9tLnhtbHQAB3BvbS54bWx0ACkvaG9tZS93b2xmaWVlbGl0ZS9Qcm9qZWN0cy90YXNrTWFuYWdlckFwcHNyADpjb20ubWl0dXV6LmZ1enppZXIuZW50aXRpZXMuRnV6enlNYXRjaENvbnRhaW5lciRGdXp6eVNjb3Jle0NZKkPNxYkCAAdJAA1maWxlbmFtZVNjb3JlSQAOZnJlcXVlbmN5U2NvcmVJAA9tdWx0aU1hdGNoU2NvcmVJABBwYXJ0aWFsUGF0aFNjb3JlSQAMcmVjZW5jeVNjb3JlSQALc3RyZWFrU2NvcmVMABNoaWdobGlnaHRDaGFyYWN0ZXJzdAAPTGphdmEvdXRpbC9TZXQ7eHAAAAADAAAAAAAAAAAAAAAKAAAAAAAAAANzcgARamF2YS51dGlsLkhhc2hTZXS6RIWVlri3NAMAAHhwdwwAAAAQP0AAAAAAAANzcgARamF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKGrJUdC5TgiwIAAHhwAAAAAHNxAH4ADgAAAAFzcQB+AA4AAAACeHg=" />
+  </component>
+</project>
