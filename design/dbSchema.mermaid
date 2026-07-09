@@ -1,0 +1,70 @@
+erDiagram
+    PROJECTS ||--o{ SPRINTS : "has"
+    PROJECTS ||--o{ LABELS : "has"
+    PROJECTS ||--o{ TASKS : "has"
+    PROJECTS ||--o{ PROJECT_ATTACHMENTS : "has"
+    SPRINTS |o--o{ TASKS : "schedules"
+    TASKS ||--o{ SUB_TASKS : "has"
+    TASKS ||--o{ TASK_LABELS : "tagged with"
+    LABELS ||--o{ TASK_LABELS : "applied to"
+    TASKS ||--o{ TASK_ATTACHMENTS : "has"
+
+    PROJECTS {
+        int id PK
+        text name
+        text project_type
+        text documentation
+        text notes
+    }
+
+    SPRINTS {
+        int id PK
+        int project_id FK
+        text name
+        text start_date
+        text end_date
+    }
+
+    LABELS {
+        int id PK
+        int project_id FK
+        text name
+    }
+
+    TASKS {
+        int id PK
+        int project_id FK
+        int sprint_id FK
+        text name
+        text priority
+        text status
+        text notes
+        text due_date
+        int is_active
+    }
+
+    SUB_TASKS {
+        int id PK
+        int task_id FK
+        text name
+        int is_done
+    }
+
+    TASK_LABELS {
+        int task_id PK,FK
+        int label_id PK,FK
+    }
+
+    PROJECT_ATTACHMENTS {
+        int id PK
+        int project_id FK
+        text file_path
+        text file_type
+    }
+
+    TASK_ATTACHMENTS {
+        int id PK
+        int task_id FK
+        text file_path
+        text file_type
+    }
